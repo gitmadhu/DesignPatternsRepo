@@ -12,7 +12,7 @@ public class SingletonExample {
     // Providing Global point of access
     public static SingletonExample getSingletonInstance() {
         if (null == singletonInstance) {
-            singletonInstance = new SingletonExample();
+            singletonInstance = new SingletonExample();  // lazy loading.
             System.out.println("creating a new object");
         }
         return singletonInstance;
