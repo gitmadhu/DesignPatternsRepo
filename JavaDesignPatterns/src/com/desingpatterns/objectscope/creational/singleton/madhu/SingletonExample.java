@@ -17,6 +17,18 @@ public class SingletonExample {
         }
         return singletonInstance;
     }
+    
+    // using double check locking
+    public static SingletonExample getSyncSafeInstance(){
+    	 if (null == singletonInstance) {
+             synchronized (SingletonExample.class){
+                     if (null == singletonInstance) {
+             singletonInstance = new SingletonExample();
+             }
+         }
+         }
+         return singletonInstance;
+    }
  
     public void printSingleton(){
         System.out.println("Inside print Singleton");
