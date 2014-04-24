@@ -1,5 +1,9 @@
 package com.desingpatterns.objectscope.creational.singleton.madhu;
-
+/**
+ * Singleton using Lazy
+ * @author Madhu B
+ *
+ */
 public class SingletonExample {
 	 
     // Static member holds only one instance of the

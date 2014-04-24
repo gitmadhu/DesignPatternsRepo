@@ -11,6 +11,7 @@ public class SingletonExampleTest {
 		SingletonExample.getSingletonInstance().printSingleton();
 		SingletonExample.getSingletonInstance().printSingleton();
 		SingletonExample.getSingletonInstance().printSingleton();
+		
 	}
 
 }
