@@ -1,4 +1,4 @@
-package com.desingpatterns.objectcreational.singleton.madhu;
+package com.designpatterns.objectcreational.singleton.madhu;
 /**
  * Singleton using Lazy
  * @author Madhu B

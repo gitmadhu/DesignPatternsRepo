@@ -1,7 +1,7 @@
-package com.desingpatterns.objectcreational.abstractfactory.madhu;
+package com.designpatterns.objectcreational.abstractfactory.madhu;
 
-import com.desingpatterns.objectcreational.abstractfactory.model.madhu.Car;
-import com.desingpatterns.objectcreational.abstractfactory.model.madhu.CarType;
+import com.designpatterns.objectcreational.abstractfactory.model.madhu.Car;
+import com.designpatterns.objectcreational.abstractfactory.model.madhu.CarType;
 
 public abstract class CarFactory {
 	

@@ -1,6 +1,6 @@
-package com.desingpatterns.objectcreational.abstractfactory.model.madhu;
+package com.designpatterns.objectcreational.abstractfactory.model.madhu;
 
-import com.desingpatterns.objectcreational.abstractfactory.madhu.CarFactory;
+import com.designpatterns.objectcreational.abstractfactory.madhu.CarFactory;
 
 public class AbstractFactoryTest {
 
