@@ -1,6 +1,6 @@
-package com.desingpatterns.objectscope.creational.singleton.madhu;
+package com.desingpatterns.objectcreational.singleton.madhu;
 
-import com.desingpatterns.objectscope.creational.singleton.madhu.SingletonExample;
+import com.desingpatterns.objectcreational.singleton.madhu.SingletonExample;
 
 public class SingletonExampleTest {
 

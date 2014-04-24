@@ -1,4 +1,4 @@
-package com.desingpatterns.objectscope.creational.singleton.madhu;
+package com.desingpatterns.objectcreational.singleton.madhu;
 
 public enum EnumSingle {
 	INSTANCE;
