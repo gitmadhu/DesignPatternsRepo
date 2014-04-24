@@ -4,7 +4,14 @@ public abstract class Car {
 	
 	private String model; // SMALL OR SEDAN
 	private CarType type;  // DIESEL OR PATROL
+	private CarEngine carEngine;
 	
+	public CarEngine getCarEngine() {
+		return carEngine;
+	}
+	public void setCarEngine(CarEngine carEngine) {
+		this.carEngine = carEngine;
+	}
 	public Car(String model, CarType type) { 
 		this.model = model;
 		this.type = type;

@@ -10,13 +10,16 @@ public class AbstractFactoryTest {
 	public static void main(String[] args) {
 		
 		Car car = CarFactory.getCarFactory(CarType.DIESEL).getCar("SMALL");
-		System.out.println("car created is "+car.getModel());
-		System.out.println("car created is "+car.getType());
+		System.out.println("car created is "+car.getModel()+"  | "+car.getType());
+		car.getCarEngine().strart();
 		
-		 car = CarFactory.getCarFactory(CarType.PATROL).getCar("SEDAN");
+		car.getCarEngine().fillFuel();
+		car.getCarEngine().strart();
+		car = CarFactory.getCarFactory(CarType.PATROL).getCar("SEDAN");
 		 
-		 System.out.println("car created is "+car.getModel());
-		 System.out.println("car created is "+car.getType());
+		 System.out.println("car created is "+car.getModel()+"  | "+car.getType());
+		 car.getCarEngine().strart(); 
+		 
 	}
 
 }
