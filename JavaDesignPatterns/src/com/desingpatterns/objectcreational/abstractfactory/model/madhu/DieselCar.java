@@ -1,4 +1,4 @@
-package com.desingpatterns.objectcreational.abstractfactory.model;
+package com.desingpatterns.objectcreational.abstractfactory.model.madhu;
 
 public class DieselCar extends Car {
 

@@ -1,6 +1,6 @@
-package com.desingpatterns.objectcreational.abstractfactory.model;
+package com.desingpatterns.objectcreational.abstractfactory.model.madhu;
 
-import com.desingpatterns.objectcreational.abstractfactory.CarFactory;
+import com.desingpatterns.objectcreational.abstractfactory.madhu.CarFactory;
 
 public class AbstractFactoryTest {
 
@@ -9,7 +9,7 @@ public class AbstractFactoryTest {
 	 */
 	public static void main(String[] args) {
 		
-		Car car = CarFactory.getCarFactory(CarType.DIESEL).getCar("SEDAN");
+		Car car = CarFactory.getCarFactory(CarType.DIESEL).getCar("SMALL");
 		System.out.println("car created is "+car.getModel());
 		System.out.println("car created is "+car.getType());
 		
