@@ -15,8 +15,8 @@ public class AbstractFactoryTest {
 		
 		car.getCarEngine().fillFuel();
 		car.getCarEngine().strart();
+		System.out.println("------------------------");
 		car = CarFactory.getCarFactory(CarType.PATROL).getCar("SEDAN");
-		 
 		 System.out.println("car created is "+car.getModel()+"  | "+car.getType());
 		 car.getCarEngine().strart(); 
 		 

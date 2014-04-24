@@ -8,7 +8,7 @@ public class DieselCarEngine extends CarEngine {
 	}
 	
 	protected void fillDiesel(){
-		System.out.println("filling patrol ...");
+		System.out.println("filling diesel ...");
 		setHasFuel(true);
 	}
 
