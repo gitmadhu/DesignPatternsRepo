@@ -1,5 +1,10 @@
 package com.designpatterns.objectstructural.decorator.gk;
 
-public interface Pizza {
-	String bakePizza();
+public class Pizza  {
+
+	public String bakePizza() {
+		// TODO Auto-generated method stub
+		return "Basic Pizza";
+	}
+
 }
