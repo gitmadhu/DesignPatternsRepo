@@ -19,9 +19,13 @@ public class Adaptor {
 	}
 	public CircularSocket rectangulartoCircular(RectangularSocket rectangularSocket)
 	{
-		CircularSocket circularSocket = new CircularSocket();
+		circularSocket = new CircularSocket();
 		circularSocket.circularSocketOne = rectangularSocket.rectangularSocketOne;
 		circularSocket.circularSocketTwo = rectangularSocket.rectangularSocketTwo;
 		return circularSocket;
 	};
+	
+	public void plugin(RectangularSocket rs){
+		circularSocket.plugin(rectangulartoCircular(rs));
+	}
 }

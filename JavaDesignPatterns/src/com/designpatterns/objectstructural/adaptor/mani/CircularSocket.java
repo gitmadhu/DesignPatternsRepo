@@ -15,4 +15,8 @@ public class CircularSocket {
 	public void setCircularSocketTwo(String circularSocketTwo) {
 		this.circularSocketTwo = circularSocketTwo;
 	}
+	
+	public void plugin(CircularSocket cs){
+		System.out.println("Plugin Successfully");
+	}
 }
