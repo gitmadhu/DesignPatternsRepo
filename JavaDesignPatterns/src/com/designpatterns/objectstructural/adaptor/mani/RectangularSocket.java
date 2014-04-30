@@ -1,6 +1,6 @@
 package com.designpatterns.objectstructural.adaptor.mani;
 
-public class RectangularSocket extends Socket{
+public class RectangularSocket {
 	String rectangularSocketOne;
 	String rectangularSocketTwo;
 	public String getRectangularSocketOne() {

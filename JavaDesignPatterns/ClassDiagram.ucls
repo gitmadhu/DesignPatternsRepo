@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.5" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" language="java" name="com.designpatterns.objectstructural.adaptor.mani.RectangularSocket" 
+  <class id="1" language="java" name="com.designpatterns.objectstructural.adaptor.mani.Socket" 
     project="JavaDesignPatterns" 
-    file="/JavaDesignPatterns/src/com/designpatterns/objectstructural/adaptor/mani/RectangularSocket.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="158" y="160"/>    
+    file="/JavaDesignPatterns/src/com/designpatterns/objectstructural/adaptor/mani/Socket.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="143" y="146"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -16,29 +16,29 @@
     project="JavaDesignPatterns" 
     file="/JavaDesignPatterns/src/com/designpatterns/objectstructural/adaptor/mani/CircularSocket.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="441" y="162"/>    
+    <position height="-1" width="-1" x="293" y="401"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="com.designpatterns.objectstructural.adaptor.mani.Adaptor" 
+  <class id="3" language="java" name="com.designpatterns.objectstructural.adaptor.mani.RectangularSocket" 
+    project="JavaDesignPatterns" 
+    file="/JavaDesignPatterns/src/com/designpatterns/objectstructural/adaptor/mani/RectangularSocket.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="576" y="403"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.designpatterns.objectstructural.adaptor.mani.Adaptor" 
     project="JavaDesignPatterns" 
     file="/JavaDesignPatterns/src/com/designpatterns/objectstructural/adaptor/mani/Adaptor.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="640" y="434"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
-      visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="4" language="java" name="com.designpatterns.objectstructural.adaptor.mani.Socket" 
-    project="JavaDesignPatterns" 
-    file="/JavaDesignPatterns/src/com/designpatterns/objectstructural/adaptor/mani/Socket.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="309" y="391"/>    
+    <position height="-1" width="-1" x="462" y="175"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -47,28 +47,20 @@
   </class>  
   <association id="5">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="6" name="rectangularSocket"/>      
+      <attribute id="6" name="circularSocket"/>      
       <multiplicity id="7" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="8">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="9" name="circularSocket"/>      
-      <multiplicity id="10" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="11">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <generalization id="12">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
+  <association id="8">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="9" name="rectangularSocket"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

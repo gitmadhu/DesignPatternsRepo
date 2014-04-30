@@ -1,6 +1,6 @@
 package com.designpatterns.objectstructural.adaptor.mani;
 
-public class CircularSocket extends Socket{
+public class CircularSocket {
 	String circularSocketOne;
 	String circularSocketTwo;
 	public String getCircularSocketOne() {
