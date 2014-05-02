@@ -1,4 +1,4 @@
-package com.designpatterns.objectstructural.adaptor.mani;
+package com.designpatterns.objectstructural.adaptor.mani.example;
 
 public class Adaptor {
 	
