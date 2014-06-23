@@ -1,0 +1,427 @@
+:focus {
+	outline: none !important;
+}
+p, span, li, a, strong, h1, h2, h3, h4, h5, h6, div, input, label, textarea {
+	font-family: "Rockwell";
+}
+
+#rf-navigation {
+	background: #475764 url("../images/header-bg.png") no-repeat center top;	
+	height: 141px;
+}
+#rf-navigation .navbar-default {
+	background: none;
+	border: none;	
+	margin-bottom: 0;
+}
+#rf-navigation .container {
+	padding: 0px;
+	width: 1030px;
+}
+#rf-navigation .navbar-default .collapsing, #rf-navigation .navbar-default .collapse.in {
+	background-color: #fff;
+	margin: 0;
+	width: 100%;
+}
+#rf-navigation .navbar-default .collapsing .navbar-nav, #rf-navigation .collapse.in .navbar-nav {
+	margin-top: 0px;
+}
+#rf-navigation .navbar-collapse {
+	float: left;
+}
+#rf-navigation .container .navbar-header {
+	margin-left: 14px;
+	margin-right: 28px;
+}
+#rf-navigation .navbar-brand {
+	height: auto;
+	margin: 13px 0px 0 15px;
+}
+#rf-navigation .navbar-nav {
+	margin: 43px 0px 0px 34px;
+}
+#rf-navigation .navbar-nav li {
+	margin-right: 30px;
+}
+#rf-navigation .navbar-nav li a	 {
+	background: none !important;
+	color: #b1b9bc !important;
+	font-family: "Rockwell";
+	font-size: 18px;
+	letter-spacing: 0.2px;
+} 
+#rf-navigation .navbar-nav li a:hover {
+	color: #a1b427 !important;
+}
+#rf-navigation .zeitgeist-ribbon {
+	float: left;
+	width: 40px;
+}
+#banner {
+	width: 100%;
+}
+#banner .container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#banner .container .row{
+	background: #ef8d06 url("../images/banner.jpg") no-repeat left top;
+	height: 350px;
+	margin: 0;
+	padding: 0;
+}
+#banner.banner2 .container .row{
+	background: #ef8d06 url("../images/banner2.jpg") no-repeat left top;
+}
+#banner .container .row img{
+	max-height: 100%;
+}
+#banner .banner-text {    
+	left: 700px; 
+    position: absolute;
+    top: 160px;
+	width: 490px;
+}
+#banner .banner-text h1{
+	color: #fff;
+	font-size: 60px;
+	font-family: "Rockwell";
+	text-align: left;
+}
+#banner .banner-text h1.txt02 {
+	color: #facda4;
+}
+
+#banner.banner2 .banner-text h1 {
+	margin-bottom: 0px;
+	}
+#banner.banner2 .banner-text h1.txt02 {
+	color: #a2b427; margin-top: 0px;
+	}
+#content-01 {
+	background-color: #fff;
+	padding: 52px 0px 40px 0px;
+}
+#content-01 .container {
+	width: 908px;
+}
+#content-01 .container .col-md-8 {
+	width: 65%;
+}
+#content-01 .container .col-md-4 {
+	width: 35%;
+}
+#content-01 .container .green-dash-30 {
+	background-color: #b1c326;
+	float: left;
+	height: 6px;
+	width: 30px;
+}
+#content-01 .container h1 {
+	clear: left;
+	float: left;
+	color: #b1c326; 
+	font-size: 32px;
+	font-family: "Rockwell";
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	margin-top: 6px;
+	width: 100%;
+}
+#content-01.content01 .container p {
+	margin-bottom: 0;
+	}
+#content-01 .container p {
+	color: #5a636a; 
+	font-size: 16px;
+	font-family: "Rockwell";
+	font-weight: normal;
+	letter-spacing: 0.1px;
+}
+#content-01 .container .clear-both {
+	clear: both;
+	float: left;
+	height: 1px;
+	width: 100%;
+}
+#content-01 .container .col-md-4 {
+	margin-top: 20px;
+	padding-left: 7px;
+}
+#content-01 figure{
+	border: 1px solid #ebebeb;
+	height: 241px;
+	line-height: 230px;
+	text-align: center;
+	width: 322px;
+}
+#content-01 .container a.download-link {
+	color: #a7bb06;
+	font-size: 16px;
+}
+#content-02 {
+	background: #a7bb06;
+	padding: 49px 0px 47px 0px;
+}
+#content-02 .container {
+	width: 908px;
+}
+#content-02 .container .col-md-4 {
+	width: 33.3333%;
+}
+#content-02 .container .white-dash-30 {
+	background-color: #fff;
+	float: left;
+	height: 6px;
+	width: 30px;
+	margin-left: 15px;
+}
+#content-02 .container h1 {
+	color: #fff;
+	font-size: 32px;
+	font-family: "Rockwell";
+	font-weight: bold;
+	margin: 10px 0px 36px 15px;
+}
+#content-02 .container h2 {
+	color: #3e4502;
+	font-size: 25px;
+	font-family: "Rockwell";
+	font-weight: normal;
+	margin-left: 15px;
+	margin-top: 0px;
+	margin-bottom: 22px;
+}
+#content-02 .container .col-md-4 figure {
+	float: left;
+	height: 26px;
+	width: 30px;
+}
+#content-02 .container .col-md-4 h3{
+	color: #3c4302;
+	float: left;
+	font-size: 20px;
+	margin-top: 0;
+	margin-left: 18px; 
+}
+
+#content-02 .container .col-md-4 p {
+	color: #606900;
+	clear: left;
+	font-size: 16px;
+	margin-left: 47px;
+	margin-bottom: 7px;
+}
+#content-02 .container .link {
+	clear: both;
+	text-align: right;
+	margin-bottom: 25px;
+}
+#content-02 .container .link a{
+	color: #fff;
+	font-size: 16px;
+	font-family: "Rockwell";
+}
+#content-02 .container .horizontal-line {
+	background-color: #fff;
+	clear: both;
+	height: 2px;
+	margin-bottom: 23px;
+	width: 100%;
+}
+#partners {
+	border-top: 1px solid #8b8b8b;
+	border-bottom: 1px solid #8b8b8b;
+	height: 322px;
+	width: 100%;
+}
+#partners .container {
+	width: 100%;
+}
+#partners .col-md-4 {
+	background: url("../images/partners-bg.jpg") repeat-x left top;	
+	border-right: 1px solid #8b8b8b;
+	line-height: 300px;
+	height: 320px;
+	text-align: center;
+}
+#partners .col-md-4.last {
+	border: none;
+}
+#skills-services {
+	background-color: #828d96;
+	padding: 47px 0px 48px 0px;
+}
+#skills-services .container {
+	width: 968px;
+}
+#skills-services .container .white-dash-30 {
+	background-color: #fff;
+	float: left;
+	height: 6px;
+	width: 30px;
+	margin-left: 0px;
+}
+#skills-services .container h1{
+	color: #fff;
+	font-size: 32px;
+	font-family: "Rockwell";
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+#skills-services .container article {
+	margin-left: 130px;
+}
+#skills-services .container article p {
+	font-size: 16px;
+	font-family: "Rockwell";
+}
+#skills-services .container .clear-both {
+	height: 66px;
+}
+#skills-services .container .category {
+	margin: 0px auto 0px 108px;
+	padding-left: 23px;
+	overflow: hidden; 
+} 
+#skills-services .container .category .col-md-4 {
+	padding: 0;
+	width: 30%;
+	}
+#contact-panel {
+	background-color: #a7bb06;
+	padding: 47px 0px 49px 0px;
+	width: 100%;
+}
+#contact-panel .container {
+	margin: 0 auto; 
+	width: 906px;
+}
+#contact-panel .container .white-dash-30 {
+	background-color: #fff;
+	float: left;
+	height: 6px;
+	width: 30px;
+	margin-left: 0px;
+}
+#contact-panel .container h1{
+	color: #fff;
+	font-size: 32px;
+	font-family: "Rockwell";
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+#contact-panel .container .required-fields {
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+#contact-panel .container sup {
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+	top: -3px;
+}
+#contact-panel .container .form-horizontal .form-group {
+	margin-bottom: 28px;
+}
+#contact-panel .container .form-horizontal label {
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: left;
+}
+#contact-panel .container .form-horizontal label, #contact-panel .container .form-horizontal input, 
+#contact-panel .container .form-horizontal textarea,#contact-panel .container .required-fields {
+	color: #070200; font: normal 14px "Rockwell"; letter-spacing: -0.5px;
+}
+#contact-panel .container .form-horizontal input {
+	box-shadow: none;
+	border-color: #e1e1e1;
+	border-radius: 0;
+}
+
+#contact-panel .container .form-horizontal textarea {
+	font-style: italic;
+}
+#contact-panel .container .form-horizontal .product-interest,
+#contact-panel .container .form-horizontal .comments {
+	margin-bottom: 10px;
+}
+#contact-panel .form-horizontal .product-int-select,
+#contact-panel .form-horizontal .comments-textarea {
+	margin-bottom: 15px;
+}
+#contact-panel .form-horizontal .btn, #contact-panel .form-horizontal textarea {
+	border-radius: 0 !important;
+}
+#contact-panel .form-horizontal .checkbox {
+	padding: 0;
+}
+#contact-panel .form-horizontal .dropdown-menu li a:hover,
+#contact-panel .form-horizontal .dropdown-menu li a:focus {
+	background-color:#b1b9bc !important;
+}
+#contact-panel .form-horizontal .checkbox label {
+	text-transform: none;
+}
+#contact-panel .form-horizontal .checkbox button.btn {
+	padding: 0;
+}
+#contact-panel .form-horizontal .submit {
+	background-color: #fff;
+	border: 2px solid #84908c;
+	border-radius: 0 !important;
+	color: #828d96;
+	font: bold 18px "Rockwell";
+	height: 49px;
+	line-height: 35px;
+	text-transform: uppercase;
+	width: 150px;
+}
+#contact-panel .form-horizontal .cancel {
+	background: none;
+	border: none;
+	color: #373b3f;
+	font: bold 18px "Rockwell";
+	height: 49px;
+	line-height: 35px;
+	text-transform: uppercase;
+}
+#contact-panel .horizontal-line {
+	background-color: #fff;
+	clear: both;
+	height: 2px;
+	margin: 30px 0px;
+	width: 100%;
+}
+#contact-panel .bootstrap-select.btn-group .btn .caret {
+	color: #a7bb06;
+	border-left-width: 6px;
+	border-right-width: 6px;
+	border-top-width: 8px;
+}
+footer#footer {
+	background-color: #475764;
+	height: 71px;
+	width: 100%;
+}
+footer#footer .foot {
+	line-height: 70px;
+	margin: 0 auto; 
+	width: 908px;
+}
+footer#footer .foot p{
+	color: #fff;
+	font-size: 14px;
+	font-family: "Rockwell";
+	margin-bottom: 0px;
+	text-align: center;
+}
+footer#footer .foot p a{
+	color: #fff;
+	margin-left: 17px;
+	}
